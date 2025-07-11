@@ -1,0 +1,56 @@
+body{
+    font-family: 'Segoe UI', Tahoma;
+    background-color:cornsilk;
+    color: darkgray;
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+h1{
+    color:khaki;
+    margin-top: 20px;
+}
+p{
+    margin: 20px auto;
+    width:60%;
+    font-size: 18px;
+}
+a{
+    display:inline-block;
+    margin-top: 20px;
+    padding: 10px 20;
+    color: red;
+    background-color:chartreuse;
+    text-decoration: none;
+    border-radius: 20px;
+}
+img{
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.about{
+    display: flex;
+    align-items: center;
+    margin-top: 300px;
+    padding: 0;
+    background-color: rgb(92, 40, 31);
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.about-text{
+    max-width: 400px;
+    text-align: left;
+}
+.about-image  img{
+    width: 200px;
+    border-radius: 10px;
+}
+@media(max-width:768px){
+    .about{
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-image img{
+        width:80%;
+    }
+}
