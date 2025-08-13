@@ -1,0 +1,152 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    font-family: 'poppins',sans-serif;
+    background: hsl(0,0%, 100%);
+    box-shadow: 5px 5px 15px hsla(0,0%, 0%, 0.2);
+    
+     
+}
+body{
+    background: hsl(0, 0%, 100%);
+}
+
+
+.fornestedflex{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    line-height: 0; 
+    margin-left:-30px; 
+    font-size: 12px;
+}
+.subtexttologo{
+    margin-left: 50px;
+    margin-top: 2px;
+}
+.logo{
+    margin-top: -6px;
+}
+.navbar{
+    list-style: none;
+    gap:10px;
+    display: flex ;
+    flex-direction: row;
+    
+}
+
+.navbar >li{
+    display: inline-block;
+    position: relative;
+
+}
+.navbar > li > a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 10px;
+    color: black;
+
+}
+.dropdown{
+    display: none;
+    list-style: none;
+    position: absolute;
+    margin: 0;
+    padding: 10px 10px;
+    background: grey;
+    border-radius: 5px;
+}
+.dropdown li  a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 3px;
+    color: white;
+    
+
+}
+.dropdown li a:hover{
+    background-color: red;
+}
+.navbar li:hover .dropdown{
+    display: block;
+}
+.ourlinks{
+    display: flex;
+    gap: 30px;
+    margin-top: 14px;
+}
+.ourlinks a{
+    text-decoration: none;
+    color: black;
+    
+}
+#special{
+    display: block;
+    background-color: rgba(244, 247, 81, 0.615) ;
+    padding: 10px 20px;
+    border-radius:5px;
+    margin-top: -10px;
+    outline: 2px solid white;
+    outline-offset: -5px;
+    
+}
+.hero{
+    margin-top: 10px;
+    background-color: rgb(26, 111, 191);
+    background-color:;
+    padding: 60px 60px;
+    display: flex;
+    
+    align-items: flex-start;
+    justify-content: space-between;
+    
+
+}
+.contentsin{
+    
+    color: white;
+    margin-top: -50px;
+}
+h1{
+    font-size: 40px;
+  
+}
+.istp{
+    margin-top: -20px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: gold;
+    padding: 8px 14px;
+    font-family: sans-serif;
+   box-shadow: 15px 15px 40px hsla(0,0%, 0%, 0.5);
+   margin-top: 20px;
+    
+}
+.subsbtn{
+    margin-left: 20px;
+    display: inline-block;
+    outline: 1px  solid white;
+    
+    text-decoration: none;
+    color:white;
+    font-family: sans-serif;
+    padding: 8px 14px;
+}
+
+.heroim{
+    width: 50%;
+    margin-top: -20px;
+    border-radius: 5px;
+}
+.sndp{
+    padding: 10px 0px;
+    font-family: sans-serif;
+    font-size: 13px;
+    line-height: 17px;
+
+}
